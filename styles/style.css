@@ -1,0 +1,136 @@
+/* Instrument Serif & EB Garamond*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Instrument+Serif:ital@0;1&display=swap');
+#logoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+nav {
+    display:flex;
+    padding: 5px 1%;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    color: #062642;
+    height: 100%;
+}
+.navLinks{
+    height: 100%;
+    padding: 10px 1%;
+}
+.navLinks:hover {
+    background-color: #596e6b;
+    color: #02172a;
+    border-radius: 5px;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #839D9A;
+}
+header a {
+    color: #062642;
+    text-decoration: none;
+    font-family: 'EB Garamond';
+    font-size: 25px;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: #BFD2BF;
+    margin: 0;
+}
+h1, h2{
+    font-family: 'EB Garamond';
+    color: #062642;
+}
+p {
+    font-family: 'Instrument Serif';
+    font-size: 20px;
+    color: #1E491E;
+}
+
+#aboutMe{
+    display: flex;
+    gap: 10%;
+    margin: 6%;
+    padding: 0 10%;
+}
+#profilePic{
+    width: 300px;
+    border-radius: 15px;
+}
+#aboutMeDescription {
+    grid-column: 2/3;
+}
+
+
+
+footer {
+    background-color: #738d8a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    padding: 0 1%;
+    text-wrap: nowrap;
+}
+#socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    justify-content: end;
+}
+/* #linkedinLink{
+    display: flex;
+} */
+#socialLinks a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#ice {
+    padding: 0 10%;
+}
+
+
+.iceProject {
+    display: flex;
+    gap: 10%;
+    margin: 6%;
+}
+.iceImg {
+    width: 300px;
+    border-radius: 15px;
+}
+.iceDescription {
+    width: 100%;
+}
+
+.iceDescription p {
+    padding-bottom: 15px;
+}
+
+.icelink {
+    text-decoration: none;
+    background-color: #bd7866;
+    color: #062642;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline;
+    padding: 10px 25px;
+    font-size: 1.3em;
+    font-family: 'EB Garamond';
+}
+
+.icelink:hover {
+    background-color: #bd8a7d;
+    color: #062642;
+}

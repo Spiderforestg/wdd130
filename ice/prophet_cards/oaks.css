@@ -1,0 +1,48 @@
+body {
+    background: #FFECD7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#card {
+    grid-column: 2/3;
+    background-color: #008DB1;
+    border: 5px solid;
+    border-color: #004E63;
+    border-radius: 30px;
+}
+h1 {
+    color: #FFFFFE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin: 3% 0 3% 0;
+}
+#link {
+    text-align: center;
+    margin: 0 10% 3% 10%;
+}
+a {
+    color: #91E4FB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#img {
+    text-align: center;
+}
+img {
+    border: 8px solid;
+    border-color: #FFFFFE;
+}
+ul {
+    color: #FFFFFE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 20% 0 20%;
+}
+#quote {
+    color: #FFD783;
+    font-family: "Nanum Brush Script";
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3% 5% 5% 7%;
+}
